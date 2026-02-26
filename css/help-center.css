@@ -1,0 +1,178 @@
+.general_query_img {
+    width: 100%;
+    max-width: 6.365vw;
+    margin: auto;
+    position: relative;
+}
+.genereal_img_background {
+    width: 3.67188vw;
+    height: 3.67188vw;
+    border-radius: 100%;
+    background: linear-gradient(204deg, rgba(6, 172, 117, 0.00) 30.45%, rgba(6, 172, 117, 0.12) 87.16%);
+    position: absolute;
+    top: 1.82292vw;
+    left: 0.625vw;
+}
+.general_query_img img {
+    width: 100%;
+}
+.general_query_heading .fs-22 {
+    color: #282626;
+    font-family: var(--theme-body-font-avenir);
+    letter-spacing: 0.44px;
+}
+.general_query_inner_col .general_query_heading {
+    width: 100%;
+    position: relative;
+}
+.general_query_inner_col .general_query_heading::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 8px;
+    height: 13px;
+    background-image: url(../images/help-center/right-arrow.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(-45%);
+}
+.general_query_right_inner {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.833vw;
+    row-gap: 0.938vw;
+    margin-top: 2.083vw;
+}
+.general_query_inner_col {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 32.3%;
+    padding: 1.146vw 1.198vw 1.563vw 1.198vw;
+    border: 1px solid #EAE9E9;
+    background: #FDFCFC;
+}
+.general_query_sec .accordion-item.flex .fs-22, 
+.general_query_sec .accordion-item.flex .fs-22 > * {
+    font-family: var(--theme-body-font-avenir);
+    color: #282626;
+    position: relative;
+}
+.general_query_sec .accordion-item.flex h2::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 0;
+    width: 1.77083vw;
+    height: 1.77083vw;
+    transform: translateY(-45%);
+    -webkit-transform: translateY(-45%);
+    -moz-transform: translateY(-45%);
+    -ms-transform: translateY(-45%);
+    -o-transform: translateY(-45%);
+    background-image: url('../images/help-center/down-arrow.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.accordion-header.active .accordion-title h2::before {
+    transform: rotate(180deg) translateY(45%);
+    -webkit-transform: rotate(180deg) translateY(45%);
+    -moz-transform: rotate(180deg) translateY(45%);
+    -ms-transform: rotate(180deg) translateY(45%);
+    -o-transform: rotate(180deg) translateY(45%);
+}
+.new_addresses_sec.general_query_sec .cantent_part_tab_product.ingredients_rewrite_aging_section .accordion-header {
+    border: none;
+    padding: 1.66667vw 2.08333vw;
+}
+.order_shipping_row .cantent_part_tab_product .accordion-title {
+    width: 100%;
+}
+.form_step {
+    display: none;
+}
+.form-step-active {
+    display: block;
+}
+.general_query_inner_col {
+  cursor: pointer;
+}
+
+.order_shipping_row {
+  display: none;
+}
+.order_shipping_row .move-prev {
+    margin-right: 0.52083vw;
+}
+
+@media screen and (max-width: 1199px) {
+.general_query_right_inner {
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 25px;
+}
+.general_query_inner_col {
+    padding: 20px;
+    width: 48.5%;
+}
+.general_query_heading .fs-22 {
+    font-size: 18px;
+}
+.general_query_img {
+    max-width: 10vw;
+    margin-top: 10px;
+}
+.genereal_img_background {
+    width: 6vw;
+    height: 6vw;
+    top: 25px;
+    left: 5px;
+}
+.general_query_sec .accordion-item.flex .fs-22, .general_query_sec .accordion-item.flex .fs-22 > * {
+    font-size: 18px;
+}
+.new_addresses_sec.general_query_sec .cantent_part_tab_product.ingredients_rewrite_aging_section .accordion-header {
+    border: none;
+    padding: 25px 20px;
+}
+.general_query_sec .accordion-item.flex h2::before {
+    width: 30px;
+    height: 30px;
+}
+.order_shipping_inner {
+    margin-top: 15px;
+}
+.general_query_sec .cantent_part_tab_product.ingredients_rewrite_aging_section .accordion-item {
+    margin-top: 0px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.general_query_img {
+    max-width: 15vw;
+    margin-top: 15px;
+}
+.genereal_img_background {
+    width: 10vw;
+    height: 10vw;
+    top: 30px;
+    left: 5px;
+}
+.ingredients_rewrite_aging_section .accordion-content {
+    padding-top: 20px;
+}
+.general_query_sec .accordion-item.flex .fs-22, .general_query_sec .accordion-item.flex .fs-22 > * {
+    padding-right: 25px;
+}
+.general_query_inner_col {
+    width: 100%;
+}
+.general_query_img {
+    max-width: 120px;
+}
+.genereal_img_background {
+    width: 80px;
+    height: 80px;
+}
+}

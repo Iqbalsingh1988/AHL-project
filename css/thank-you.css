@@ -1,0 +1,245 @@
+.checkout_process_section .checkout_process_row .left_contact_col {
+    background: var(--white);
+    width: 100%;
+    max-width: 41.771vw;
+    padding: 1.302vw 2.813vw;
+    margin-top: 2.083vw;
+}
+.thank_you_section .thank_you_tick {
+    text-align: center;
+    padding: 1.30208vw 0px;
+    position: relative;
+}
+.thank_you_section .thank_you_tick::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: var(--light-blue-20);
+}
+.thank_you_section .thank_you_tick .tick__icon {
+    width: 3.49323vw;
+    height: 3.49323vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thank_you_section .thank_you_tick .tick__icon img {
+    width: 100%;
+}
+.thank_you_section .thank_you_heding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: var(--black);
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+    font-family: var(--theme-body-font-avenir);
+}
+.thank_you_section .thank_you_heding span {
+    color: var(--green);
+}
+.thank_you_section  .thank_you_content {
+    color: var(--light-gray);
+    font-weight: 500;
+    letter-spacing: 0.44px;
+}
+.thank_you_section .thank_you_order {
+    padding-top: 1.5625vw;
+    padding-bottom: 1.5625vw;
+    text-align: center;
+    position: relative;
+}
+.thank_you_section .thank_you_order::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: #EAE9E9;
+}
+.thank_you_section .thank_you_order .fs-18 > * {
+    color: var(--dark-gray);
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    padding-bottom: 0.625vw;
+}
+.thank_you_section .thank_you_order .fs-18 > *:last-child {
+    padding-bottom: 0px;
+}
+.thank_you_section .thank_you_order .fs-18 > * span {
+    font-weight: 700;
+}
+.thank_you_section .thank_you_btn_group {
+    width: 100%;
+    padding-top: 1.5625vw;
+    padding-bottom: 1.5625vw;
+    position: relative;
+}
+.thank_you_section .thank_you_btn_group::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: #EAE9E9;
+}
+.thank_you_section .thank_you_btn_group .button_inner {
+    justify-content: center;
+    gap: 0.52083vw;
+}
+.thank_you_section .thank_you_reviews {
+    width: 100%;
+    position: relative;
+    padding-top: 1.30208vw;
+}
+.thank_you_section .thank_you_reviews .button_border a {
+    width: fit-content;
+    min-width: fit-content;
+    font-weight: 500;
+    font-size: 0.9375vw;
+}
+.thank_you_section .thank_you_reviews .button_border a svg path {
+    fill: var(--blue);
+}
+.thank_you_section .thank_you_reviews .button_border {
+    width: fit-content;
+    margin: auto;
+    gap: 15px;
+    color: var(--dark-gray);
+    font-weight: 600;
+    letter-spacing: 0.44px;
+}
+.subtotal_shipping_inr .subtotal_rows .subtotal_left .fs-20 span {
+    font-weight: 600;
+}
+.subtotal_shipping_inr .subtotal_rows .subtotal_left .fs-14 {
+    color: #034932;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.56px;
+}
+.subtotal_shipping_inr .subtotal_rows .subtotal_left .fs-16 {
+    color: #666;
+}
+.subtotal_shipping_inr .subtotal_rows .subtotal_left .fs-16 span {
+    font-weight: 700;
+}
+.subtotal_shipping_inr .subtotal_rows .sub_total_right .price_current {
+    font-weight: 500;
+    overflow: hidden;
+    color: var(--dark-gray);
+}
+.thank_you_section .thanks_total_including .total_including_left .fs-22 {
+    color: var(--green);
+}
+.thank_you_section .thanks_total_including .total_including_right .price_current,
+.thank_you_section .thanks_total_including .total_including_right .price_current svg path,
+.thank_you_section .thanks_total_including .total_including_right .price_current span{
+    fill: var(--green);
+    color: var(--green);
+}
+@media screen and (max-width: 1199px) {
+.checkout_process_section.thank_you_section .checkout_process_row .left_contact_col {
+    max-width: 100%;
+}
+.checkout_process_section.thank_you_section .checkout_process_row .cart_summary_row {
+    padding: 15px;
+    max-width: 38vw;
+    margin-left: 30px;
+    margin-top: 0px;
+    top: 8vw;
+}
+.thank_you_section .thank_you_btn_group .bg_blue_button {
+        font-size: 16px;
+    }
+.thank_you_section .thank_you_reviews .button_border a {
+    font-size: 14px;
+}
+.thank_you_section .thank_you_reviews .button_border .arrow svg {
+    width: 20px;
+}
+}
+@media screen and (max-width: 991px) { 
+.checkout_process_section .checkout_process_row {
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+}
+.checkout_process_section.thank_you_section .checkout_process_row .cart_summary_row {
+    max-width: 100%;
+}
+.checkout_process_section .checkout_process_row .left_contact_col {
+    padding: 20px;
+    margin-top: 40px;
+}
+.thank_you_section .thank_you_tick .tick__icon {
+    width: 6.5vw;
+    height: 6.5vw;
+}
+.thank_you_section .thank_you_heding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.thank_you_section .thank_you_tick {
+    padding: 20px 0px;
+}
+.thank_you_section .thank_you_order {
+     padding: 20px 0px;
+}
+.thank_you_section .thank_you_btn_group {
+     padding: 20px 0px;
+}
+.thank_you_section .thank_you_reviews {
+    padding-top: 20px;
+}
+.checkout_process_section.thank_you_section .checkout_process_row .cart_summary_row {
+    margin-left: 0px;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .thank_you_section .thank_you_tick .tick__icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+.thank_you_section .thank_you_order .fs-18 > * {
+    padding-bottom: 10px;
+}
+.thank_you_section .thank_you_btn_group .button_inner {
+    justify-content: center;
+    row-gap: 20px;
+}
+.thank_you_section .thank_you_tick {
+    padding-top: 10px;
+}
+.checkout_process_section.thank_you_section .checkout_bg_right_img {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    width: 8.55833vw;
+    height: 14.79167vw;
+}
+.thank_you_section .thank_you_heding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.thank_you_section .thank_you_tick {
+    padding: 25px 0px;
+}
+.thank_you_section .thank_you_order {
+     padding: 25px 0px;
+}
+.thank_you_section .thank_you_btn_group {
+     padding: 25px 0px;
+}
+.thank_you_section .thank_you_reviews {
+    padding-top: 25px;
+}
+}

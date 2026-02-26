@@ -1,0 +1,128 @@
+.empty_cart_section {
+    position: relative;
+    width: 100%;
+    padding: 3vw 0px;
+}
+.empty_cart_section .empty_cart_inner {
+    width: 100%;
+    max-width: 35%;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+.empty_cart_section .empty_cart_row {
+        padding: 2.60417vw;
+
+}
+.empty_cart_section .empty_cart_inner .empty_cart_circle {
+    width: 14.11458vw;
+    height: 14.11458vw;
+    border-radius: 100%;
+    opacity: 0.6;
+    background: #E8F8F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_img {
+    width: 6.875vw;
+    height: 6.875vw;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_img img { 
+    width: 100%;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_content {
+    width: 100%;
+    padding-top: 1.5625vw;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_content .fs-22 {
+    color: #282626;
+     font-family: var(--theme-body-font-avenir);
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.44px;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_btn {
+    width: 100%;
+    padding: 1.30208vw;
+}
+
+@media screen and (max-width: 1199px) {
+.empty_cart_section {
+    padding: 4vw 0px;
+}
+.empty_cart_section .empty_cart_inner {
+    max-width: 40%;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_circle {
+    width: 20vw;
+    height: 20vw;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_img {
+    width: 8vw;
+    height: 8vw;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_content {
+    padding-top: 30px;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_content .fs-22 {
+    font-size: 18px;
+}
+.empty_cart_section .empty_cart_inner .empty_cart_btn {
+    padding: 20px;
+}
+.empty_cart_section .empty_cart_row {
+    padding-top: 30px;
+}
+}
+@media screen and (max-width: 991px) {
+.empty_cart_section {
+        padding: 5vw 0px;
+    }
+.empty_cart_section .empty_cart_inner {
+        max-width: 55%;
+    }
+.empty_cart_section .empty_cart_inner .empty_cart_circle {
+        width: 25vw;
+        height: 25vw;
+    }
+    .empty_cart_section .empty_cart_inner .empty_cart_img {
+        width: 10vw;
+        height: 10vw;
+    }
+    .empty_cart_section .empty_cart_row {
+        padding-top: 40px;
+    }
+    .empty_cart_section .empty_cart_inner .empty_cart_content {
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+        .empty_cart_section {
+        padding: 8vw 0px 10vw 0px;
+    }
+    .empty_cart_section .empty_cart_inner {
+        max-width: 80%;
+    }
+    .empty_cart_section .empty_cart_inner .empty_cart_circle {
+        width: 200px;
+        height: 200px;
+    }
+    .empty_cart_section .empty_cart_inner .empty_cart_img {
+        width: 85px;
+        height: 85px;
+    }
+    .empty_cart_section .empty_cart_row {
+        padding: 40px 20px 20px 20px;
+    }
+}

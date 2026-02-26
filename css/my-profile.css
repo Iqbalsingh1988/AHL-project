@@ -1,0 +1,128 @@
+ .new_addresses_sec .your_gender_row {
+      display: flex;
+      gap: 0.52083vw;
+      margin-top: 0.78125vw;
+    }
+
+    .new_addresses_sec .gender-option {
+      display: none;
+    }
+
+    .new_addresses_sec .gender-label {
+        border: 1px solid #EAE9E9;
+        background: #FEFDFD;
+        padding: 0.78125vw 1.04167vw;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        max-width: 145px;
+        width: 100%;
+        color: #858585;
+        font-family: var(--theme-body-font-avenir);
+        font-size: 0.9375vw;
+        font-weight: 500;
+    }
+
+    .new_addresses_sec .gender-option:checked + .gender-label {
+      background-color: #06AC75;
+      color: #fff;
+      border-color: #06AC75;
+    }
+    .your_gender_inr .fs-22 {
+    color: #282626;
+    font-family: var(--theme-body-font-avenir);
+    font-weight: 500;
+    letter-spacing: 0.44px;
+}
+.new_addresses_sec.my_profile_sec .wishlist_right_inner {
+    width: 100%;
+    margin-top: 1.8vw;
+}
+.new_addresses_sec.my_profile_sec .subscribe_checkout {
+    padding-top: 2.86458vw;
+}
+.new_addresses_sec.my_profile_sec .my_profile_btns {
+    margin-top: 2.60417vw;
+    width: 14.58333vw;
+}
+.new_addresses_sec.my_profile_sec .my_profile_btns .bg_bgreen_button {
+    width: 100%;
+    justify-content: center;
+}
+.new_addresses_sec.my_profile_sec .my_profile_form {
+    width: 100%;
+    max-width: 46.51042vw;
+}
+
+.new_addresses_sec.my_profile_sec .subscribe_checkout.flex input[type="checkbox"]:checked {
+    background-color: #06AC75;
+    border-color: #06AC75;
+}
+
+.new_addresses_sec.my_profile_sec .subscribe_checkout.flex input[type="checkbox"]::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 7px;
+    width: 6px;
+    height: 0.625vw;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+.new_addresses_sec.my_profile_sec .subscribe_checkout.flex input[type="checkbox"]:checked::after {
+    display: block;
+}
+
+@media screen and (max-width: 1199px) {
+.new_addresses_sec.my_profile_sec .my_profile_form {
+    max-width: 52.51042vw;
+}
+.new_addresses_sec.my_profile_sec .gender-label {
+    padding: 15px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.new_addresses_sec.my_profile_sec .your_gender_row {
+    gap: 8px;
+    margin-top: 10px;
+}
+.new_addresses_sec.my_profile_sec .your_gender_inr {
+    margin-top: 20px;
+}
+}
+@media screen and (max-width: 991px) {
+    .new_addresses_sec.my_profile_sec .my_profile_form {
+        max-width: 100%;
+    }
+    .your_gender_inr .fs-22 {
+    font-size: 20px;
+}
+    .new_addresses_sec.my_profile_sec .gender-label {
+        padding: 15px;
+        gap: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        max-width: 160px;
+    }
+    .new_addresses_sec.my_profile_sec .subscribe_checkout {
+    padding-top: 40px;
+}
+.new_addresses_sec.my_profile_sec .my_profile_btns {
+    margin-top: 40px;
+    width: 25.58333vw;
+}
+}
+@media screen and (max-width: 767px) {
+    .new_addresses_sec.my_profile_sec .gender-label {
+        max-width: 50%;
+    }
+.new_addresses_sec.my_profile_sec .my_profile_btns {
+    width: 100%;
+}
+}

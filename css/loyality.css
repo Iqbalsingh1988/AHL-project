@@ -1,0 +1,473 @@
+/* How it Works css start */
+.works_steps_sec {
+    padding-top: 8.75vw;
+    padding-bottom: 9.271vw;
+    position: relative;
+    width: 100%;
+}
+.works_steps_top {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.works_steps_sec .works_steps_col {
+    position: relative;
+    display: flex;
+    align-items: start;
+    gap: 1.66667vw;
+}
+.works_steps_sec .works_steps_col_left {
+    width: 4.79167vw;
+    height: 4.79167vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: 700;
+    color: #535151;
+    border-radius: 100%;
+    border: 1px dashed #282626;
+    padding: 1.28667vw 1.06771vw 1.31094vw 1.19792vw;
+}
+.works_steps_sec .works_steps_col_right .peragraph_cnt {
+    width: 33.125vw;
+    letter-spacing: 0.44px;
+}
+.works_steps_sec .works_steps_col {
+    padding-top: 1.563vw;
+    padding-bottom: 1.563vw;
+    position: relative;
+}
+.works_steps_sec .works_steps_col::before {
+    content: "";
+    position: absolute;
+    top: inherit;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 1px;
+    background: #BCBCBC;
+}
+.works_steps_sec .works_steps_col:first-child {
+    padding-top: 0px;
+}
+.works_steps_sec .works_steps_col:last-child::before {
+    display: none;
+}
+.works_steps_sec .works_steps_col_right .title .fs-36 {
+    font-family: var(--theme-body-font-avenir);
+    color: #047C54;
+    font-weight: 700;
+    margin-bottom: 1.04167vw;
+}
+.works_steps_inner {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: start;
+    gap: 0.833vw;
+    padding-top: 5.208vw;
+}
+.works_steps_img {
+    width: 100%;
+    max-width: 42.292vw;
+    clip-path: polygon(50px 0%, 100% 0%, 100% 100%, 50px 100%, 0% calc(100% - 50px), 0% 50px);
+    position: relative;
+}
+.works_steps_img img {
+    width: 100%;
+}
+.works_steps_sec .container {
+    padding-right: 0px;
+}
+.works_steps_right {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1199px) {
+    .works_steps_img {
+        max-width: 44.292vw;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .works_steps_inner {
+        grid-template-columns: 1fr;
+        gap: 2.833vw;
+    }
+    .works_steps_sec .works_steps_col_right .peragraph_cnt {
+        width: 90%;
+    }
+    .works_steps_sec .works_steps_col::before {
+        max-width: 86.344vw;
+    }
+    .works_steps_sec .works_steps_col_left {
+        width: 5.79167vw;
+        height: 5.79167vw;
+    }
+    .works_steps_sec .works_steps_col {
+        padding-top: 2.563vw;
+        padding-bottom: 2.563vw;
+    }
+    .works_steps_img {
+        max-width: 90.292vw;
+    }
+    .works_steps_sec .works_steps_col {
+        gap: 2.66667vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+.works_steps_sec .works_steps_col_left {
+            width: 10.79167vw;
+        height: 10.79167vw;
+}
+.works_steps_sec .works_steps_col {
+    padding-top: 4.563vw;
+    padding-bottom: 4.563vw;
+}
+.works_steps_sec .works_steps_col {
+    gap: 3.66667vw;
+}
+.works_steps_sec .works_steps_col::before {
+    max-width: 92.344vw;
+}
+.works_steps_img {
+    max-width: 100%;
+        clip-path: polygon(30px 0%, 100% 0%, 100% 100%, 30px 100%, 0% calc(100% - 30px), 0% 30px);
+}
+.works_steps_inner {
+    padding-top: 8.208vw;
+}
+}
+/* How it Works css end */
+
+
+
+/* How To Earn Points css start */
+.earn_points_sec {
+    padding-top: 5.885vw;
+    padding-bottom: 7.8125vw;
+    background: rgba(34, 70, 170, 0.10);
+    width: 100%;
+    position: relative;
+}
+.earn_points_heading {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.earn_points_sec .earn_points_col_left {
+    width: 6.979vw;
+    height: 6.979vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed rgb(40, 38, 38);
+    border-radius: 4.16667vw;
+    border-image: initial;
+    padding: 6px;
+}
+.inner_earn_points {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.earn_points_sec .earn_points_col_left img {
+    width: 100%;
+}
+.earn_points_bg_img {
+    width: 100%;
+    max-width: 74.531vw;
+    margin: auto;
+}
+.earn_points_bg_img img {
+    width: 100%;
+}
+.earn_points_sec .earn_points_col_right .title .fs-22 {
+    font-family: var(--theme-body-font-avenir);
+    font-weight: 700;
+    width: 100%;
+    max-width: 11.198vw;
+}
+.earn_points_sec .earn_points_col.step-3 .earn_points_col_right .title .fs-22 {
+    max-width: 13.021vw;
+}
+.earn_points_sec .earn_points_col_right .peragraph_cnt {
+    width: 100%;
+}
+.earn_points_inner {
+    margin-top: 5.208vw;
+    position: relative;
+}
+.earn_points_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 72.396vw;
+    margin: auto;
+}
+.earn_points_box .earn_points_col {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+}
+.earn_points_col.step-1 .earn_points_col_right {
+    width: 100%;
+    max-width: 11.719vw;
+    margin-left: auto;
+}
+
+.earn_points_col.step-2 .earn_points_col_right {
+    width: 100%;
+    max-width: 11.719vw;
+    margin-left: auto;
+}
+.earn_points_col.step-1 .earn_points_col_left {
+    margin-top: -1.042vw;
+}
+.earn_points_col.step-2 {
+    flex-direction: column-reverse;
+}
+.earn_points_col.step-2 .earn_points_col_left {
+    margin-bottom: -1.042vw;
+}
+.earn_points_col.step-3 .earn_points_col_right {
+    width: 100%;
+    max-width: 12.5vw;
+}
+.earn_points_col.step-4 .earn_points_col_right {
+    width: 100%;
+    max-width: 11.979vw;
+}
+.earn_points_col.step-4 .earn_points_col_left {
+    margin-left: auto;
+    margin-bottom: -1.042vw;
+    margin-right: 1.042vw;
+}
+.earn_points_col.step-3 .earn_points_col_left {
+    margin-left: auto;
+    margin-top: -1.823vw;
+        margin-right: 0.833vw;
+}
+.earn_points_col.step-4 {
+    flex-direction: column-reverse;
+}
+
+.earn_points_bg_img {
+    width: 100%;
+    max-width: 74.531vw;
+    margin: auto;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.earn_points_col .xyz {
+    width: 17.969vw;
+    position: relative;
+}
+
+.earn_points_col:nth-child(odd) .xyz {
+    position: relative;
+
+}
+.earn_points_col:nth-child(even) .xyz {
+    position: relative;
+    margin-top: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.781vw;
+}
+
+.earn_points_icon {
+    background: linear-gradient(204deg, rgba(6, 172, 117, 0.00) 30.45%, rgba(6, 172, 117, 0.12) 87.16%);
+    border-radius: 5.208vw;
+    padding: 0px 0px 10px 5px;
+        width: 3.646vw;
+    height: 3.646vw;
+}
+.ear_points_img {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translateX(-50%);
+    width: 3.125vw;
+    transition: .5s;
+
+}
+.earn_points_col .earn_points_col_left:hover .inner_earn_points {
+    background-color: rgba(6, 172, 117, 0.70);
+}
+.earn_points_col .earn_points_col_left:hover .ear_points_img {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    transition: .5s;
+}
+.earn_points_col .earn_points_col_left:hover .ear_points_img img {
+    filter: brightness(0) invert(1);
+}
+.earn_points_sec .earn_points_col_right .peragraph_cnt {
+    width: 100%;
+    color: #535151;
+    font-style: normal;
+    font-size: 1.042vw;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+    margin-top: 5px;
+}
+@media screen and (max-width: 1199px) {
+.earn_points_sec {
+    height: auto;
+    padding-bottom: 6vw;
+}
+.earn_points_bg_img {
+    max-width: 80.531vw;
+    top: 55%;
+}
+.earn_points_col .xyz {
+    width: 18.969vw;
+}
+.earn_points_sec .earn_points_col_right .title .fs-22 {
+    max-width: 15.198vw;
+}
+.earn_points_box {
+    width: 76.396vw;
+}
+}
+@media screen and (max-width: 991px) {
+    .earn_points_box {
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        justify-content: space-between;
+    }
+.earn_points_box .earn_points_col {
+    justify-content: space-between;
+    width: 48%;
+}
+.earn_points_bg_img {
+    display: none;
+    }
+    .earn_points_col:nth-child(even) .xyz {
+        margin-top: 0px;
+        flex-direction: column;
+    }
+.earn_points_sec .earn_points_col_left {
+    width: 8.979vw;
+    height: 8.979vw;
+    border-radius: 100%;
+    
+}
+.earn_points_icon {
+    width: 5.646vw;
+    height: 5.646vw;
+}
+.ear_points_img {
+    width: 4.125vw;
+}
+.earn_points_col .xyz {
+        width: 100%;
+    }
+    .earn_points_col:nth-child(odd) .xyz {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+.earn_points_col.step-1 .earn_points_col_right {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+}
+.earn_points_col:nth-child(even) .xyz {
+        margin-top: 0px;
+        flex-direction: row-reverse;
+    }
+.earn_points_col.step-2 .earn_points_col_right {
+    max-width: 100%;
+}
+.earn_points_col .earn_points_col_left {
+    margin-top: 0px;
+    width: 100px;
+}
+    .earn_points_sec .earn_points_col_right .title .fs-22 {
+        max-width: 100%;
+        font-size: 18px;
+    }
+.earn_points_sec .earn_points_col_right .peragraph_cnt {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.earn_points_col.step-3 .earn_points_col_left {
+    margin-left: inherit;
+    margin-top: 0px;
+    margin-right: auto;
+}
+.earn_points_col.step-3 .earn_points_col_right {
+    width: 100%;
+    max-width: 100%;
+}
+.earn_points_sec .earn_points_col.step-3 .earn_points_col_right .title .fs-22 {
+    max-width: 100%;
+}
+.earn_points_col.step-4 .earn_points_col_left {
+    margin-left: inherit;
+    margin-top: 0px;
+    margin-right: auto;
+}
+.earn_points_col.step-4 .earn_points_col_right {
+    width: 100%;
+    max-width: 100%;
+}
+.earn_points_sec .earn_points_col.step-4 .earn_points_col_right .title .fs-22 {
+    max-width: 100%;
+}
+.earn_points_col:nth-child(even) .xyz {
+    gap: 15px;
+}
+.earn_points_col.step-1 .earn_points_col_left {
+    margin-top: 0px;
+}
+}
+@media screen and (max-width: 767px) {
+    .earn_points_box {
+        flex-direction: column;
+    }
+    .earn_points_box .earn_points_col {
+        width: 100%;
+    }
+        .earn_points_col .earn_points_col_left {
+        width: 100px;
+        height: 80px;
+    }
+        .earn_points_icon {
+        width: 50px;
+        height: 50px;
+    }
+    .ear_points_img {
+        width: 35px;
+    }
+    .earn_points_inner {
+    margin-top: 35px;
+    position: relative;
+}
+.earn_points_sec {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .earn_points_box {
+        row-gap: 40px;
+    }
+}
+/* How To Earn Points css end */
+
+

@@ -1,0 +1,818 @@
+.login_register_inner {
+    align-items: stretch;
+    height: 100%;
+    background: #FDFCFC;
+}
+
+.login_register_inner .login_register_left {
+    width: 50%;
+}
+
+.login_register_inner .login_register_left img {
+    width: 100%;
+}
+
+.login_register_inner .login_register_right {
+    width: 50%;
+    position: relative;
+    height: auto;
+    padding: 1.30208vw;
+}
+
+.login_register_inner .popup_product_vdo .popup__content {
+    width: 59.47917vw;
+}
+
+.lr_close {
+    width: 1.19792vw;
+    height: 1.25234vw;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.login_row {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.mobile_number_input {
+    display: flex;
+    align-items: center;
+    gap: 0.52083vw;
+    flex: 1 0 0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border: 1px solid var#EAE9E9;
+    background: #FEFDFD;
+    height: 3.125vw;
+    margin-top: 1.5625vw;
+    background: #fff;
+    padding: 0px 1.04167vw;
+    position: relative;
+}
+
+.mobile_number_input select {
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: var(--dark-gray);
+    font-size: 0.9375vw;
+    font-weight: 500;
+    font-family: var(--theme-body-font-avenir);
+    outline: none;
+    position: relative;
+}
+
+.mobile_number_input::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    background: var(--neutral-grey-50, #EAE9E9);
+    height: 65%;
+    width: 1px;
+    transform: translateY(-50%);
+}
+
+.mobile_number_input input {
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--black);
+    font-size: 0.9375vw;
+    font-weight: 500;
+    font-family: var(--theme-body-font-avenir);
+    padding-left: 5px;
+}
+
+.mobile_number_input input {
+    flex: 1;
+}
+
+.login_register_popup .submit_btn {
+    width: 100%;
+    margin-top: 1.30208vw;
+}
+
+.login_register_popup .submit_btn .bg_bgreen_button {
+    width: 100%;
+    justify-content: center;
+}
+
+.login_register_popup .login_register_right .fs-18 {
+    margin-top: 1.45833vw;
+    color: var(--dark-gray);
+    letter-spacing: 0.36px;
+}
+
+.login_register_right .heading_inner .fs-36 {
+    font-family: var(--theme-body-font-avenir);
+}
+
+.continue_email {
+    margin-top: 2.08333vw;
+    justify-content: space-between;
+    gap: 0.625vw;
+    align-items: center;
+}
+
+.continue_email .continue_email_btn {
+    width: 70%;
+}
+
+.continue_email .continue_email_btn .bg_bgreen_button {
+    width: 100%;
+    justify-content: center;
+    color: var(--black);
+    border: 1px solid #D2D2D2;
+    background: #FFF;
+    color: #535151;
+    display: flex;
+    align-items: center;
+    gap: 0.625vw;
+    font-size: 0.9375vw;
+}
+
+.gmail_icon {
+    width: 12%;
+}
+
+.facebook_icon {
+    width: 12%;
+}
+
+.gmail_icon a,
+.facebook_icon a {
+    width: 100%;
+    border-radius: 100%;
+    border: 1px solid #D2D2D2;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9375vw;
+}
+
+.sign_up {
+    margin-top: 1.5625vw;
+}
+
+.login_register_popup .login_register_right .para_content.fs-18 a {
+    color: var(--green);
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.login_register_left,
+.login_register_right {
+    flex: 1 1 50%;
+}
+
+.mobile_login_col {
+    width: 100%;
+}
+
+.terms_privacy_col {
+    width: 100%;
+    position: relative;
+}
+
+.terms_privacy_col .fs-14,
+.terms_privacy_col .fs-14>* {
+    max-width: 70%;
+    margin: auto;
+    color: var(--neutrals-grey-300, var(--neutral-grey-300, #6F6E6E));
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 14px;
+    font-family: var(--theme-body-font-aveni);
+}
+
+.terms_privacy_col .fs-14 a {
+    color: var(--primary-green-500, var(--primary-green-500, #06AC75));
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.terms_privacy_col::before {
+    content: "";
+    position: absolute;
+    top: -0.83333vw;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: var(--neutral-grey-50, #EAE9E9);
+}
+
+.mobile_number_input:focus-within {
+    border: 1px solid #06AC75;
+}
+
+/* otp css  */
+.otp_col {
+    width: 100%;
+}
+
+.otp_input {
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 1.5625vw;
+}
+
+.otp_input_box {
+    width: 3.28125vw;
+    height: 3.02083vw;
+}
+
+.otp_input_box input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--neutral-grey-200, #9C9B9B);
+    background: var(--bg-surf-nav-bar, #FEFDFD);
+    padding: 0.78125vw 1.04167vw;
+    outline: none;
+}
+
+
+/* Login Form details  */
+.login_details_col {
+    width: 100%;
+}
+
+.login_form_input {
+    width: 100%;
+    margin-top: 1.30208vw;
+}
+
+.login_form_input .email_input {
+    width: 100%;
+}
+
+.su_input {
+    margin-bottom: 1.30208vw;
+    position: relative;
+}
+
+.login_form_input .password_input {
+    width: 100%;
+}
+
+.login_form_input .email_input input,
+.login_form_input .password_input input {
+    border: 1px solid var(--neutral-grey-50, #EAE9E9);
+    background: var(--bg-surf-nav-bar, #FEFDFD);
+    color: #858585;
+    font-size: 0.9375vw;
+    font-weight: 500;
+    font-family: var(--theme-body-font-avenir);
+    width: 100%;
+    height: 2.86458vw;
+    padding: 0.78125vw;
+    outline: none;
+}
+
+.login_form_input .email_input input:focus-within,
+.login_form_input .password_input input:focus-within {
+    border: 1px solid #06AC75;
+}
+
+.login_form_input .password_input input {
+    padding-right: 2.34375vw;
+}
+
+/* Sign UP details  */
+.sign_up_col {
+    width: 100%;
+    height: 100%;
+}
+
+.input_group {
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    gap: 0.625vw;
+}
+
+.input_group .f_l_name {
+    width: 50%;
+    position: relative;
+}
+
+.input_group .f_l_name input {
+    width: 100%;
+    border: 1px solid var(--neutral-grey-50, #EAE9E9);
+    background: var(--bg-surf-nav-bar, #FEFDFD);
+    color: #000;
+    font-size: 0.9375vw;
+    font-weight: 500;
+    font-family: var(--theme-body-font-avenir);
+    height: 2.86458vw;
+    padding: 0.78125vw;
+    outline: none;
+}
+
+.input_group .f_l_name input:focus {
+    border: 1px solid #06AC75;
+}
+
+.label_group {
+    position: relative;
+}
+
+.sign_up_label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translatey(-50%);
+    transition: all .2s ease-in-out;
+    color: #858585;
+    font-size: 0.9375vw;
+    font-weight: 500;
+    font-family: var(--theme-body-font-avenir);
+    padding-left: 0.78125vw;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    pointer-events: none;
+}
+
+.label_group:focus-within .sign_up_label,
+.label_group:focus-within .sign_up_label {
+    top: 25%;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.mobile_number_input.label_group .sign_up_label {
+    padding-left: 16.5%;
+}
+
+.forget_password {
+    width: 100%;
+    text-align: right;
+}
+
+.forget_password a {
+    color: var(--primary-green-500, var(--primary-green-500, #06AC75));
+    font-size: 0.9375vw;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.continue_mobile_num {
+    width: 100%;
+    text-align: right;
+    margin-top: 1.5625vw;
+}
+
+.continue_mobile_num a {
+    color: var(--primary-green-500, var(--primary-green-500, #06AC75));
+    font-size: 0.83333vw;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.password_icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.password_icon svg {
+    width: 1.14583vw;
+}
+
+.popup_product_vdo.login_register_popup {
+    background: rgb(0, 0, 0, 0.3);
+}
+
+.sign_up_label.active {
+    top: 25%;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 1199px) {
+
+    .terms_privacy_col .fs-14,
+    .terms_privacy_col .fs-14>* {
+        max-width: 85%;
+    }
+
+    .popup_product_vdo.login_register_popup .popup__content {
+        width: 90vw;
+    }
+
+    .login_register_inner .login_register_right {
+        padding: 20px;
+    }
+
+    .lr_close {
+        width: 3.19792vw;
+        height: 3.25234vw;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .login_form_input {
+        margin-top: 20px;
+    }
+
+    .su_input {
+        margin-bottom: 15px;
+    }
+
+    .sign_up_label {
+        font-size: 16px;
+    }
+
+    .login_form_input .email_input input,
+    .login_form_input .password_input input {
+        font-size: 16px;
+        height: 50px;
+        padding-left: 15px;
+    }
+
+    .password_icon svg {
+        width: 18px;
+    }
+
+    .login_register_popup .login_register_right .fs-18 {
+        margin-top: 20px;
+    }
+
+    .continue_email {
+        margin-top: 25px;
+    }
+
+    .continue_email .continue_email_btn .bg_bgreen_button {
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .forget_password a {
+        font-size: 16px;
+    }
+
+    .forget_password {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mobile_number_input {
+        height: auto;
+    }
+
+    .mobile_number_input input {
+        font-size: 16px;
+        height: 50px;
+        padding-left: 15px;
+    }
+
+    .mobile_number_input select {
+        font-size: 16px;
+        height: 100%;
+    }
+
+    .mobile_number_input.label_group .sign_up_label {
+        padding-left: 19%;
+        /* top: 26%; */
+    }
+
+    .otp_input {
+        margin-top: 20px;
+    }
+
+    .otp_input_box {
+        width: 5.28125vw;
+        height: 5.02083vw;
+    }
+
+    .otp_input_box input {
+        font-size: 18px;
+    }
+
+    .login_register_popup .login_register_right .otp_change .fs-18 {
+        margin-top: 25px;
+    }
+
+    .login_register_popup .otp_change .submit_btn {
+        margin-top: 25px;
+    }
+
+    .input_group .f_l_name input {
+        font-size: 16px;
+        height: 50px;
+        padding-left: 15px;
+    }
+
+    .login_register_left,
+    .login_register_right {
+        flex: none;
+    }
+
+    .login_register_inner .login_register_left {
+        width: 53%;
+    }
+
+    .login_register_inner .login_register_right {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .login_register_inner .login_register_left {
+        display: none;
+    }
+
+    .login_register_inner .login_register_right {
+        width: 100%;
+    }
+
+    .login_row {
+        justify-content: start;
+    }
+
+    .sign_up_col {
+        margin-top: 25px;
+    }
+
+    .su_input {
+        margin-bottom: 30px;
+    }
+
+    .input_group {
+        gap: 15px;
+    }
+
+    .sign_up_label {
+        padding-left: 15px;
+    }
+
+    .input_group .f_l_name input {
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .gmail_icon a,
+    .facebook_icon a {
+        padding: 10px;
+        height: 70px;
+        max-width: 70px;
+    }
+
+    .gmail_icon a,
+    .facebook_icon a {
+        padding: 10px;
+        height: 60px;
+        max-width: 60px;
+        margin: auto;
+    }
+
+    .terms_privacy_col {
+        margin-top: 60px;
+    }
+
+    .login_register_popup .login_register_right .fs-18 {
+        margin-top: 30px;
+    }
+
+    .continue_email {
+        margin-top: 35px;
+    }
+
+    .terms_privacy_col::before {
+        top: -1.83333vw;
+    }
+
+    .label_group:focus-within .sign_up_label,
+    .label_group:focus-within .sign_up_label {
+        top: 28%;
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .login_register_inner .login_register_right {
+        padding: 30px;
+    }
+
+    .login_form_input .email_input input,
+    .login_form_input .password_input input {
+        font-size: 18px;
+        height: 60px;
+    }
+
+    .password_icon svg {
+        width: 22px;
+    }
+
+    .password_icon svg {
+        width: 22px;
+    }
+
+    .bg_bgreen_button span {
+        width: 22px;
+    }
+
+    .otp_input {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .otp_input {
+        margin-top: 35px;
+    }
+
+    .login_register_popup .login_register_right .otp_change .fs-18 {
+        margin-top: 30px;
+    }
+
+    .mobile_number_input input {
+        font-size: 18px;
+        height: 60px;
+        padding-left: 5%;
+    }
+
+    .mobile_number_input select {
+        font-size: 18px;
+        height: 100%;
+    }
+
+    .mobile_number_input::before {
+        left: 12%;
+    }
+
+    .sign_up_label {
+        font-size: 18px;
+    }
+
+    .mobile_number_input.label_group .sign_up_label {
+        padding-left: 15%;
+    }
+
+    .login_register_popup .submit_btn {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .login_register_inner .login_register_right {
+        padding: 20px 30px;
+    }
+
+    .mobile_number_input.label_group .sign_up_label {
+        padding-left: 24%;
+    }
+
+    .mobile_number_input {
+        margin-top: 25px;
+        padding: 0px;
+        gap: 10px;
+    }
+
+    .continue_email .continue_email_btn {
+        width: 100%;
+    }
+
+    .gmail_icon,
+    .facebook_icon {
+        width: 20%;
+    }
+
+    .mobile_number_input::before {
+        left: 18%;
+    }
+
+    .gmail_icon a,
+    .facebook_icon a {
+        height: 60px;
+        max-width: 60px;
+    }
+
+    .continue_email {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+        column-gap: 10px;
+    }
+
+    .terms_privacy_col::before {
+        top: -30%;
+    }
+
+    .login_register_popup .login_register_right .otp_change .fs-18 {
+        line-height: normal;
+    }
+
+    .otp_input {
+        margin-top: 25px;
+    }
+
+    .otp_input_box {
+        width: 32px;
+        height: 32px;
+    }
+
+    .login_row {
+        flex-direction: row;
+    }
+
+    .input_group .f_l_name {
+        width: 100%;
+    }
+
+    .popup_product_vdo.login_register_popup .popup__content {
+        width: 90vw;
+        height: 80%;
+        overflow-y: scroll;
+    }
+
+    .sign_up_col {
+        height: auto;
+    }
+}
+
+
+
+/* Login Details page css start */
+.login_details_sec {
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.login_details_sec .login_details_inner {
+    width: 100%;
+    max-width: 40%;
+    margin: auto;
+}
+.login_details_sec .login_details_inner .heading_inner .fs-36 {
+    text-align: center;
+    font-family: var(--theme-body-font-avenir);
+}
+
+.login_details_sec .login_details_inner form {
+    margin-top: 30px;
+}
+.login_details_sec .login_details_inner .label_group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login_details_sec .login_details_inner .label_group input {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    padding-left: 15px;
+}
+.login_details_sec .login_details_inner .label_group input:focus-within {
+    border: 1px solid #06AC75;
+}
+.login_submit_btn,
+.login_submit_btn .bg_bgreen_button {
+    width: 100%;
+    justify-content: center;
+}
+@media screen and (max-width: 1199px) {
+.login_details_sec .login_details_inner {
+    max-width: 60%;
+}
+}
+@media screen and (max-width: 991px) {
+.login_details_sec .login_details_inner {
+    max-width: 100%;
+}
+}

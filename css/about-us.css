@@ -1,0 +1,748 @@
+/* About AgeDefy Section Start */
+    .about_agedefy_sec .container {
+        padding-right: 6.25vw;
+    }
+    .about_agedefy_sec .life_agedefy_img {
+    width: 45.41667vw;
+    float: right;
+    clip-path: polygon(
+        20px 0%,
+        calc(100% - 20px) 0%,
+        100% 20px,
+        100% calc(100% - 20px),
+        calc(100% - 20px) 100%,
+        20px 100%,
+        0% calc(100% - 20px),
+        0% 20px);
+    }
+    .about_agedefy_sec .peragraph_cnt {
+        width: 34.125vw;
+    }
+    .about_agedefy_sec .peragraph_cnt p:first-child {
+        padding-bottom: 1.45833vw;
+    }
+    .about_agedefy_sec .life_agedefy_right {
+        padding-left: 0;
+    }
+    .about_agedefy_sec .review_post_img {
+        width: 100%;
+        position: relative;
+    }
+    .about_agedefy_sec .review_post_img::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(285deg, rgba(0, 0, 0, 0.50) 2.67%, rgba(0, 0, 0, 0.35) 32.43%);
+    }
+    .why_agedefy_col .why_agedefy_content .title,
+    .why_agedefy_col .why_agedefy_content .peragraph_cnt  {
+        z-index: 1;
+        position: relative;
+    }
+    .about_agedefy_sec .review_post_img .video_button_popup {
+        width: 5.91557vw;
+        height: 5.91557vw;
+        left: 42%;
+        top: 37%;
+    }
+    .about_agedefy_sec .review_post_img .video_button_popup svg {
+        width: 1.5625vw;
+    }
+/* About AgeDefy Section End */
+
+
+/* Why AgeDefy Section Start */
+    .why_agedefy_sec {
+        padding-top: 3.95833vw;
+        padding-bottom: 3.95833vw;
+        position: relative;
+        width: 100%;
+        background: #FDFCFC;
+    }
+    .why_agedefy_sec .why_agedefy_heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 23.64583vw;
+    }
+    .why_agedefy_sec .why_agedefy_heading_left {
+        width: 22.23958vw;
+    }
+    .why_agedefy_sec .why_agedefy_heading_right {
+        width: 40.88542vw;
+    }
+    .why_agedefy_inner {
+        padding-top: 3.33333vw;
+        display: flex;
+        column-gap: 0.625vw;
+    }
+    .why_agedefy_sec  .title .fs-28 {
+        font-family: var(--theme-body-font-avenir);
+        color: #282626;
+        margin-bottom: 1.04167vw;
+    }
+    .why_agedefy_col .peragraph_cnt > * {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+        line-height: 1.5;
+        letter-spacing: 0.36px;
+        white-space: normal;
+    }
+    .why_agedefy_col {
+        position: relative;
+        max-width: 21.40625vw;
+        overflow: hidden;
+        cursor: pointer;
+        background-size: auto;
+        background-position: 60% 0%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        flex: 1 1 30%;
+        cursor: pointer;
+        border-bottom: 0.5px solid rgb(234, 233, 233, 0.3);
+        background-size: cover;
+         transition: flex 0.4s ease;
+    cursor: pointer;
+    border-bottom: 0.5px solid rgb(234, 233, 233, 0.3);
+    background-size: cover;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+    .why_agedefy_col.active{
+        max-width: 43.4375vw;
+        flex: 1 1 60%;
+        width: fit-content;
+}
+    /* .why_agedefy_col:hover{
+        max-width: 43.4375vw;
+        flex: 1 1 60%;
+} */
+
+    .why_agedefy_col .why_agedefy_img {
+        width: 100%;
+        position: relative;
+    }
+    .why_agedefy_col .why_agedefy_img img {
+        width: 100%;
+    }
+    .why_agedefy_content {
+        width: 100%;
+        padding: 1.5625vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    
+    padding-top: inherit;
+    height: 30.98958vw;
+    position: relative;
+        height: 100%;
+}
+.why_agedefy_col.active .sci_beneft_content_bottom {
+    width: 40vw;
+}
+    .why_agedefy_col.active .title h3 {
+        font-size: 1.875vw;
+        letter-spacing: 0.72px;
+    }
+    .why_agedefy_col.active .peragraph_cnt > * {
+        -webkit-line-clamp: inherit;
+        transition: flex 0.4s ease;
+    }
+    .why_agedefy_col.active  .why_agedefy_content {
+        padding-top: 23.17708vw;
+        position: relative;
+        height: 100%;
+    }
+    .why_agedefy_col  .why_agedefy_content::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 50.67%, #FFF 76.1%, #FFF 100%);
+        z-index: 0;
+    }
+    .why_agedefy_arrows {
+        position: absolute;
+        top: 0.52083vw;
+        right: 0.52083vw;
+        width: 2.23958vw;
+        height: 2.23958vw;
+        background: rgba(255, 255, 255, 0.40);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .why_agedefy_col.active  .why_agedefy_arrows { 
+        display: none;
+    }
+
+/* Why AgeDefy Section End */
+
+
+/* About empowering every generation section start */
+    .about_empowering_sec {
+        width: 100%;
+        position: relative;
+        background: #FBFAF9;
+        padding: 3.95833vw 0px;
+    }
+    .about_empowering_sec .about_empowering_inner {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 3.52083vw;
+    }
+    .about_empowering_sec .about_empowering_left {
+        width: 43.125vw;
+    }
+    .about_empowering_sec .about_empowering_right {
+        width: 42.34375vw;
+        padding-top: 1.35417vw;
+    }
+    .about_empowering_sec .empowering_right_col_right .title .fs-36 {
+        font-family: var(--theme-body-font-avenir);
+        color: #535151;
+        margin-bottom: 1.04167vw;
+    }
+    .about_empowering_sec .empowering_right_col {
+        position: relative;
+        display: flex;
+        align-items: start;
+        gap: 1.66667vw;
+    }
+    .about_empowering_sec .empowering_right_col_left {
+        border: 1px dashed #282626;
+        border-radius: 4.16667vw;
+        display: flex;
+        width: 4.79167vw;
+        height: 4.79167vw;
+        padding: 1.28667vw 1.06771vw 1.31094vw 1.19792vw;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    .about_empowering_sec .empowering_right_col_left img {
+        width: 100%;
+    }
+    .about_empowering_sec .empowering_right_col_left img:hover {
+        color: #06AC75;
+    }
+    .about_empowering_sec .empowering_right_col_right {
+        padding-bottom: 3.125vw;
+    }
+    .about_empowering_sec .empowering_right_col::before {
+        content: "";
+        position: absolute;
+        top: -1.5625vw;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #BCBCBC;
+    }
+    .about_empowering_sec .empowering_right_col:first-child::before {
+        display: none;
+    }
+    .about_empowering_sec .about_empowering_inner_img {
+        width: 8.81333vw;
+    }
+    .about_empowering_sec .about_empowering_inner_img img {
+        width: 100%;
+    }
+    .about_empowering_img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .about_empowering_sec .empowering_right_col_left img:hover {
+    filter: brightness(0) saturate(100%) invert(51%) sepia(76%) saturate(351%) hue-rotate(111deg) brightness(94%) contrast(92%);
+    transition: filter 0.3s ease;
+    }
+/* About empowering every generation section end */
+
+
+/* Future and Friendly Wellness Section Start */
+    .frndly_wellness_sec {
+        padding-top: 3.64583vw;
+        padding-bottom: 3.64583vw;
+        width: 100%;
+        position: relative;
+    }
+    .frndly_wellness_sec .common_heading .peragraph_cnt {
+        width: 39.47917vw;
+    }
+    .frndly_wellness_sec .frndly_Wellness_col_left .fs-76 {
+        color: #BCBCBC;
+        font-family: 'FONTSPRING DEMO - Nereida Expanded';
+    }
+    .frndly_Wellness_col {
+        display: flex;
+        align-items: start;
+        gap: 1.97917vw;
+    }
+    .frndly_wellness_sec .frndly_Wellness_col_right .title .fs-28 {
+        font-family: var(--theme-body-font-avenir);
+    }
+    .frndly_Wellness_col .frndly_Wellness_col_left {
+        width: 16%;
+    }
+    .frndly_Wellness_col .frndly_Wellness_col_right {
+        width: 84%;
+    }
+    .frndly_wellness_inner {
+        padding-top: 7.60417vw;
+    }
+    .frndly_wellness_slider .slick-list {
+        margin: 0 -2.34375vw;
+    }
+    .frndly_wellness_slider .slick-slide {
+        margin: 0 2.34375vw;
+    }
+    .frndly_wellness_sec .container {
+        padding-right: 0px;
+        overflow: hidden;
+    }
+    .frndly_wellness_btn {
+        position: absolute;
+        top: 8.64583vw;
+        right: 6.35417vw;
+        display: flex;
+        align-items: center;
+        gap: 0.9375vw;
+    }
+    .frndly_wellness_inner_img img {
+        width: 100%;
+    }
+    .frndly_wellness_inner_img {
+        width: 8.73208vw;
+    }
+    .frndly_wellness_img {
+        position: absolute;
+        top: 0;
+        right: 25.41667vw;
+    }
+    .frndly_wellness_sec .frndly_Wellness_col_right .peragraph_cnt {
+        margin-top: 0.98958vw;
+    }
+/* Future and Friendly Wellness Section End */
+
+
+/* Founders with a Purpose Section Start */
+    .founders_purpose_sec .our_experts_inner_bottom {
+        grid-template-columns: none;
+        display: inherit;
+    }
+    .founders_purpose_sec .our_experts_inner_top {
+        justify-content: center;
+    }
+    .founders_purpose_sec .our_experts_col .our_experts_content .fs-28 {
+        margin-bottom: 0px;
+    }
+    .founders_purpose_sec .our_experts_content {
+        padding: 10.72917vw 4.30208vw 2.34375vw 1.30208vw;
+    }
+    .our_experts_sec.founders_purpose_sec .our_expert_quotes {
+        width: 8vw;
+        height: 8vw;
+    }
+    .our_experts_sec.founders_purpose_sec .our_expert_quotes svg {
+        width: 100%;
+        height: 100%;
+    }
+    .our_experts_sec.founders_purpose_sec .our_expert_quotes svg path {
+        opacity: 0.4;
+    }
+    .founders_purpose_slider .slick-list {
+        margin: 0 -6px;
+    }
+    .founders_purpose_slider .slick-slide {
+        margin: 0 6px;
+    }
+    .our_experts_sec.founders_purpose_sec .founders_purpose_btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.604vw;
+        gap: 0.781vw;
+    }
+    .our_experts_sec.founders_purpose_sec .our_experts_heading_left {
+        width: 42.79167vw;
+    }
+    .our_experts_sec.founders_purpose_sec .our_experts_icon {
+        width: 11%;
+    }
+/* Founders with a Purpose Section End */
+
+
+
+@media screen and (max-width: 1199px) {
+    .life_agedefy_sec {
+        padding-top: 5.16667vw;
+        padding-bottom: 5.16667vw;
+    }
+    .life_agedefy_sec .life_agedefy_inner {
+        grid-template-columns: 6fr 6fr;
+        gap: 2.52083vw;
+    }
+    .life_agedefy_left {
+        width: 100%;
+    }
+    .life_agedefy_sec .common_heading .peragraph_cnt {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .about_agedefy_sec .life_agedefy_right {
+        width: 100%;
+    }
+    .about_agedefy_sec .life_agedefy_img {
+        width: 100%;
+    }
+    .why_agedefy_sec .why_agedefy_heading_left {
+        width: 23.23958vw;
+    }
+    .why_agedefy_col {
+        flex: 1 1 30%;
+        background-position: 52% 0%;
+    }
+    .why_agedefy_col.active  .why_agedefy_content {
+        padding-top: 22.17708vw;
+    }
+    .why_agedefy_content {
+        padding-top: 26.17708vw;
+    }
+    .why_agedefy_col.active .title h3 {
+        font-size: 2.5vw;
+    }
+    .about_empowering_sec .empowering_right_col_left {
+        width: 5.79167vw;
+        height: 5.79167vw;
+    }
+    .why_agedefy_arrows {
+        top: 1.2vw;
+        right: 1.2vw;
+        width: 3.5vw;
+        height: 3.5vw;
+        background: rgba(255, 255, 255, 0.40);
+    }
+    .why_agedefy_sec  .title .fs-28 {
+        font-size: 18px;
+    }
+    .frndly_wellness_inner {
+        padding-top: 5.60417vw;
+    }
+    .founders_purpose_sec .our_experts_content {
+        padding: 12.72917vw 5.30208vw 3.34375vw 2.30208vw;
+    }
+    .our_experts_sec .our_experts_col .our_experts_content .fs-28 {
+        font-size: 24px;
+    }
+    .our_experts_sec .our_experts_arrows {
+        width: 1.042vw;
+    }
+    .why_agedefy_col  .why_agedefy_content::before {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 50.67%, #FFF 70.1%, #FFF 100%);
+        z-index: 0;
+    }
+    .frndly_wellness_sec .arrow_design_common, .founders_purpose_sec .arrow_design_common {
+        width: 4.208vw;
+        height: 4.208vw;
+    }
+    .our_experts_sec.founders_purpose_sec .our_experts_icon {
+        width: 12%;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .life_agedefy_sec .life_agedefy_inner {
+        grid-template-columns: 1fr;
+        gap: 5.52083vw;
+    }
+    .about_agedefy_sec .peragraph_cnt p:first-child {
+        padding-bottom: 2.45833vw;
+    }
+    .about_agedefy_sec .review_post_img .video_button_popup {
+        width: 10vw;
+        height: 10vw;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about_agedefy_sec .review_post_img .video_button_popup svg {
+        width: auto;
+    }
+    .why_agedefy_sec .why_agedefy_heading_left {
+        width: 100%;
+    }
+    .why_agedefy_sec .why_agedefy_heading_right {
+        width: 100%;
+    }
+    .why_agedefy_sec .why_agedefy_heading {
+        gap: 2vw;
+        flex-wrap: wrap;
+    }
+    .why_agedefy_col.active  .why_agedefy_content {
+        padding-bottom: 2vw;
+    }
+    .why_agedefy_content {
+        padding-top: 30.57708vw;
+    }
+    .why_agedefy_col.active .title h3 {
+        font-size: 3vw;
+    }
+    .why_agedefy_col .why_agedefy_content::before {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 10.67%, #FFF 70.1%, #FFF 100%);
+    }
+    .about_empowering_sec {
+        padding: 6vw 0px 8vw 0px;
+    }
+    .about_empowering_sec .about_empowering_inner {
+        grid-template-columns: 1fr;
+        gap: 5vw;
+    }
+    .about_empowering_sec .about_empowering_left {
+        width: 100%;
+    }
+    .about_empowering_sec .about_empowering_right {
+        width: 100%;
+        padding-top: 1.35417vw;
+    }
+    .about_empowering_sec .empowering_right_col_left {
+        width: 8.79167vw;
+        height: 8.79167vw;
+        padding: 10px;
+        border-radius: 100px;
+    }
+    .about_empowering_sec .empowering_right_col {
+        gap: 3vw;
+        padding-bottom: 3vw;
+        padding-top: 3vw;
+    }
+    .about_empowering_sec .about_empowering_inner_img {
+        width: 12.81333vw;
+    }
+    .frndly_wellness_sec {
+        padding-top: 6vw;
+        padding-bottom: 10vw;
+    }
+    .frndly_wellness_inner_img {
+        width: 15.73208vw;
+    }
+    .frndly_wellness_sec .common_heading .peragraph_cnt {
+        width: 80%;
+    }
+    .frndly_wellness_sec .frndly_Wellness_col_right .title .fs-28 {
+        font-size: 22px;
+    }
+    .frndly_wellness_sec .frndly_Wellness_col_left .fs-76 {
+        font-size: 42px;
+    }
+    .our_experts_sec .our_experts_col .our_experts_content .fs-28 {
+        font-size: 18px;
+    }
+    .founders_purpose_sec .our_experts_content {
+        padding: 12.72917vw 5.30208vw 3.34375vw 2.30208vw;
+    }
+
+    .frndly_wellness_sec .frndly_wellness_btn {
+        display: flex;
+        justify-content: center;
+        gap: 0.781vw;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50px);
+        top: inherit;
+        right: inherit;
+    }
+    .frndly_wellness_img {
+        right: 10.41667vw;
+    }
+    .frndly_wellness_sec .arrow_design_common, .founders_purpose_sec .arrow_design_common {
+        width: 5.208vw;
+        height: 5.208vw;
+    }
+    .our_experts_sec.founders_purpose_sec .our_experts_heading_left {
+        width: 56.79167vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .life_agedefy_sec {
+        padding-top: 10vw;
+        padding-bottom: 8vw;
+    }
+    .about_agedefy_sec .peragraph_cnt p:first-child {
+        padding-bottom: 3.45833vw;
+    }
+    .life_agedefy_sec .common_heading .peragraph_cnt {
+        padding-top: 5.30208vw;
+    }
+    .about_agedefy_sec .review_post_img .video_button_popup {
+        width: 16vw;
+        height: 16vw;
+    }
+    .about_empowering_sec .empowering_right_col_left {
+        width: 3.125vw;
+        height: 3.125vw;
+        padding: 8px;
+        border-radius: 100%;
+    }
+    .about_empowering_sec .empowering_right_col {
+        gap: 5vw;
+    }
+    .frndly_wellness_btn {
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: auto;
+        top: inherit;
+        justify-content: center;
+        gap: 1.042vw;
+    }
+    .frndly_wellness_sec {
+        padding-bottom: 15vw;
+    }
+
+    .about_agedefy_sec .container {
+        padding-right: 0.781vw;
+    }
+    .why_agedefy_col.active {
+        max-width: 100%;
+        flex: 1 1 100%;
+        height: 450px;
+    }
+    .why_agedefy_inner {
+        padding-top: 8vw;
+        row-gap: 12px;
+    }
+    .why_agedefy_col.active  .why_agedefy_content {
+        position: absolute;
+        bottom: 0;
+        padding: 0px 10px 15px 10px;
+        top: inherit;
+        height: auto;
+        z-index: 1;
+    }
+    .why_agedefy_col .why_agedefy_content::before {
+        display: none;
+    }
+    .why_agedefy_col.active .why_agedefy_content::before {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 2%, #FFF 32.1%, #FFF 100%);
+        display: block;
+        height: 270px;
+    }
+    .why_agedefy_col.active .title h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .why_agedefy_col.active .why_agedefy_content .title,
+    .why_agedefy_col.active .why_agedefy_content .peragraph_cnt  {
+        z-index: 1;
+        position: relative;
+    }
+    .why_agedefy_col {
+        flex: 1 1 100%;
+        background-position: 52% 62%;
+        height: 100%;
+        max-width: 100%;
+        height: 100px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+}
+    .why_agedefy_col:first-child {
+        background-position: 52% 36%;
+    }
+    .why_agedefy_arrows {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0.40);
+        border-radius: 5px;
+        padding: 8px;
+    }
+    .about_empowering_sec {
+        padding: 10vw 0px 8vw 0px;
+    }
+    .our_experts_sec.founders_purpose_sec {
+        padding-top: 10.75vw;
+        padding-bottom: 10.75vw;
+    }
+    .our_experts_sec.founders_purpose_sec .our_experts_arrows {
+        width: 1.563vw;
+        top: 4.83333vw;
+        right: 5.35417vw;
+    }
+    .our_experts_sec .our_experts_col .our_experts_content .fs-28 {
+        font-size: 22px;
+    }
+        .founders_purpose_sec .our_experts_content {
+        padding: 6.771vw 1.042vw 1.302vw 0.781vw;
+    }
+    .our_experts_sec.founders_purpose_sec .our_expert_quotes {
+        width: 20vw;
+        height: 20vw;
+    }
+        .frndly_wellness_sec .common_heading .peragraph_cnt {
+        width: 100%;
+    }
+    .frndly_wellness_sec .container {
+        padding-right: 0.781vw;
+    }
+    .frndly_wellness_slider .slick-prev:before, .frndly_wellness_slider .slick-next:before {
+        display: none;
+    }
+    .frndly_wellness_slider button {
+        display: none;
+    }
+    .our_experts_sec.founders_purpose_sec .our_experts_heading_left {
+        width: 100%;
+    }
+    .frndly_wellness_inner {
+        padding-top: 8.60417vw;
+    }
+    .frndly_wellness_sec .arrow_design_common, .founders_purpose_sec .arrow_design_common {
+        width: 8.208vw;
+        height: 8.208vw;
+    }
+    .frndly_wellness_sec {
+        padding-bottom: 14vw;
+    }
+    .our_experts_sec.founders_purpose_sec .founders_purpose_btn {
+        margin-top: 5.604vw;
+    }
+    .about_empowering_sec .empowering_right_col_left {
+        width: 12.125vw;
+        height: 12.125vw;
+    }
+}
+
+.popup_product_vdo {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+}
+
+body.hidden_part {
+    overflow: hidden;
+}

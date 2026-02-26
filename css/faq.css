@@ -1,0 +1,163 @@
+.faq_section {
+    padding-top: 5.3125vw;
+    padding-bottom: 4.32292vw;
+}
+.faq_section .faq {
+    width: 100%;
+}
+.faq_section .faq .fs-56 {
+    font-size: 2.91667vw;
+}
+.faq_section .accordion-item.flex .fs-22 {
+    font-family: var(--theme-body-font-avenir);
+}
+.faq_section .cantent_part_tab_product {
+    padding-top: 4.198vw;
+}
+.faq_section .cantent_part_tab_product.ingredients_rewrite_aging_section .accordion-header.active {
+    padding: 1.82292vw 2.1875vw 1.66667vw;
+}
+.faq_section .accordion-title {
+    color: #000;
+}
+.faq_section .cantent_part_tab_product.ingredients_rewrite_aging_section .accordion-header {
+    padding-top: 1.04167vw;
+}
+.faq_section .accordion-item.flex {
+    position: relative;
+}
+.faq_section .accordion-header::after {
+    content: "";
+    border: solid #282626;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    right: 1.30208vw;
+    top: 1.04167vw;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.faq_section .accordion-header.active::after {
+    transform: rotate(-133deg);
+    -webkit-transform: rotate(-133deg);
+    -moz-transform: rotate(-133deg);
+    -ms-transform: rotate(-133deg);
+    -o-transform: rotate(-133deg);
+}
+
+.faq_section .cantent_part_tab_product.ingredients_rewrite_aging_section .accordion-header {
+    border: none;
+}
+
+.faq_section .accordion-header::after{
+    pointer-events: none;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .faq_section {
+        padding-bottom: 5.27083vw;
+    }
+    .faq_section .accordion-item.flex .fs-22 {
+        font-size: 20px;
+    }
+    .faq_section .accordion-item.flex::after {
+        top: 13px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .faq_section .cantent_part_tab_product {
+        padding-top: 5.198vw;
+    }
+    .faq_section .faq .fs-56 {
+        font-size: 3.91667vw;
+    }
+    .faq_section {
+        padding-top: 6.3125vw;
+        padding-bottom: 6.27083vw;
+    }
+    .faq_section .faq .fs-56 {
+        font-size: 3.91667vw;
+    }
+    .faq_section .accordion-item.flex .fs-22 {
+        font-size: 20px;
+    }
+    .faq_section .cantent_part_tab_product.ingredients_rewrite_aging_section .accordion-header.active {
+        padding: 2.82292vw 3.1875vw 2.66667vw;
+    }
+    .faq_section .accordion-item.flex::after {
+        right: 2.30208vw;
+        padding: 4px;
+    }
+
+    .faq_section .accordion-header::after {
+      right: 2.30208vw;
+      top: 2.04167vw;
+    }
+
+    .faq_section .accordion-header.active::after {
+      top: 4.04167vw;
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .faq_section {
+        padding-top: 8.3125vw;
+    }
+    .faq_section .faq .fs-56 {
+        font-size: 5.91667vw;
+    }
+    .faq_section .accordion-item.flex .fs-22 {
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    .faq_section .accordion-item.flex .accordion-content.fs-22{
+        font-size: 16px;
+    }
+
+    .faq_section .cantent_part_tab_product {
+        padding-top: 6.198vw;
+    }
+    .faq_section .cantent_part_tab_product.ingredients_rewrite_aging_section .accordion-header.active {
+        padding: 3.82292vw 4.1875vw 3.66667vw;
+    }
+    .faq_section .cantent_part_tab_product.ingredients_rewrite_aging_section .accordion-item {
+        margin-top: 4.042vw;
+    }
+    .faq_section .accordion-item.flex::after {
+        top: 18px;
+        right: 4.30208vw;
+        padding: 4px;
+    }
+
+    .faq_section .cantent_part_tab_product .accordion-title {
+      width: 100%;
+    }
+
+    .faq_section .accordion-item.flex .fs-22 {
+        padding-right: 30px;
+    }
+
+    .faq_section .accordion-header::after {
+        border-width: 0 1px 1px 0;
+        padding: 4px;
+        right: 2.30208vw;
+        top: 4.04167vw;
+    }
+
+    .faq_section .accordion-header.active::after {
+        right: 4.30208vw;
+        top: 8.04167vw;
+    }
+}

@@ -1,0 +1,487 @@
+/* Life At Agedefy section start */
+.life_agedefy_sec {
+    padding-top: 4.16667vw;
+    padding-bottom: 4.16667vw;
+    position: relative;
+    width: 100%;
+}
+.life_agedefy_sec .life_agedefy_inner {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    align-items: center;
+    gap: 0.52083vw;
+}
+.life_agedefy_sec .life_agedefy_img img {
+    width: 100%;
+}
+
+
+.life_agedefy_sec .life_agedefy_img {
+    width: 100%;
+    clip-path: polygon(
+    50px 0%,
+    100% 0%,
+    100% 100%,
+    50px 100%,
+    0% calc(100% - 50px),
+    0% 50px);
+    position: relative;
+}
+
+.life_agedefy_sec .life_agedefy_img::before{
+    content: "";
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 40.26%, rgba(0, 0, 0, 0.50) 100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.life_agedefy_sec .life_agedefy_img .video_button_popup {
+    left: 45%;
+    top: 42%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+.life_agedefy_sec .container {
+    padding-right: 0px;
+}
+.life_agedefy_sec .life_agedefy_right {
+    padding-left: 4.42708vw;
+}
+.life_agedefy_sec .common_heading .peragraph_cnt {
+    padding-top: 2.30208vw;
+    padding-bottom: 2.5vw;
+}
+.life_agedefy_leaf {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.life_agedefy_sec .life_agedefy_leaf_inner {
+    width: 8.73208vw;
+}
+.life_agedefy_sec .life_agedefy_leaf_inner img {
+    width: 100%;
+}
+/* Life At Agedefy section end */
+
+
+/* Why Work With Us section start */
+.work_us_sec {
+    padding-top: 4.20833vw;
+    padding-bottom: 4.20833vw;
+    position: relative;
+    width: 100%;
+}
+.work_us_sec .work_us_icon {
+    width: 4.94792vw;
+    height: 4.94792vw;
+    padding: 1.40625vw 1.39771vw 1.44125vw 1.44979vw;
+    border-radius: 100%;
+    border: 0.748px dashed var(--neutral-grey-500, #282626);
+    margin-bottom: 2.34375vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work_us_sec .heading_inner .fs-28 {
+    font-family: var(--theme-body-font-avenir);
+}
+.work_us_sec .banner_home_cnt.color_lg {
+    padding: 0px;
+    margin-top: 1.04167vw;
+    width: 100%;
+    padding: 0px 10px;
+}
+.work_us_sec .common_heading {
+    text-align: center;
+}
+.work_us_sec .work_us_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 24%;
+}
+.work_us_sec .work_us_inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4.6875vw 3.90625vw;
+    padding-top: 4.6875vw;
+    width: 100%;
+}
+.work_us_sec .work_us_img_inner {
+    width: 10vw;
+}
+.work_us_sec .work_us_img_inner img {
+    width: 100%;
+}
+.work_us_sec .work_us_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* Why Work With Us section end */
+
+
+/* Team Opening section start */
+.team_opening_sec {
+    padding-top: 2.60417vw;
+    padding-bottom: 3.38542vw;
+}
+.team_opening_sec .team_opening_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.team_opening_sec .team_opening_heading_left {
+    width: 50%;
+}
+.team_opening_sec .team_opening_heading_right {
+  display: flex;
+    align-items: center;
+    justify-content: stretch;
+    width: 50%;
+    gap: 20px;
+    height: auto;
+}
+.team_opening_sec .team_opening_col .heading_inner {
+    width: 60%;
+}
+.team_opening_sec .heading_inner .fs-28 {
+    font-family: var(--theme-body-font-avenir);
+}
+.team_opening_sec .banner_home_cnt {
+    padding: 0px;
+    margin-top: 0px;
+    color: #535151;
+    z-index: 1;
+    position: relative;
+    width: 40%;
+    text-align: right;
+}
+.team_opening_sec .team_opening_col_dev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+}
+.team_opening_sec .team_opening_boxes {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 0.78125vw 0.52083vw;
+    padding-top: 3.95833vw;
+}
+.team_opening_sec .team_opening_col {
+    padding: 1.5625vw 2.1875vw;
+    border: 1px solid var(--bg-surf-nav-bar, #FEFDFD);
+    background: var(--bg, #F9F9F9);
+    transition: background-color 0.6s ease;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.team_opening_col .button_border .arrow svg{
+     color: #2246aa;
+}
+
+.team_opening_sec .team_opening_col:hover .button_border .arrow svg{
+    color: #fff;
+}
+
+.team_opening_sec .team_opening_col .banner_home_cnt.color_lg.fs-18 {
+    width: 75%;
+    color: #535151;
+    text-align: left;
+}
+.team_opening_sec .button_border {
+    margin-top: 1.25vw;
+        z-index: 1;
+    position: relative;
+}
+.team_opening_sec .pagination_section {
+    margin-top: 2.34375vw;
+}
+.team_opening_sec .send_us_custom_select {
+    width: 50%;
+    position: relative;
+}
+.team_opening_sec .send_us_custom_select select {
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 10px 24px;
+    appearance: none;
+    outline: none;
+}
+.team_opening_sec .brand_search_inner {
+    border: transparent;
+    align-items: center;
+}
+.team_opening_sec .send_us_custom_select::after {
+    content: "";
+    border: solid #282626;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    right: 1.30208vw;
+    top: 1.04167vw;
+}
+.team_opening_sec .team_opening_col:hover::before {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    bottom: 0%;
+    border-radius: 0;
+}
+
+ .team_opening_sec .team_opening_col::before {
+    content: '';
+    position: absolute;
+    background: #29b670;
+    left: -100%;
+    bottom: -100%;
+    transition: all 0.8s;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.team_opening_sec .team_opening_col:hover .team_opening_col_dev,
+.team_opening_sec .team_opening_col:hover .banner_home_cnt.color_lg.fs-18,
+.team_opening_sec .team_opening_col:hover .banner_home_cnt
+ {
+        color: #fff;
+}
+.team_opening_sec .team_opening_col:hover .button_border a {
+       color: #fff !important; 
+}
+.team_opening_sec .team_opening_heading_right form {
+   background: #FAFAFA;
+   }
+/* Team Opening section end */
+
+
+@media screen and (max-width: 1199px) {
+    .work_us_sec .work_us_icon {
+        width: 6.94792vw;
+        height: 6.94792vw;
+        padding: 15px;
+    }
+    .work_us_sec .work_us_inner {
+        gap: 4.6875vw 2.90625vw;
+    }
+    .team_opening_sec .team_opening_boxes {
+        gap: 1.78125vw 1.52083vw;
+    }
+    .team_opening_sec {
+        padding-bottom: 4.38542vw;
+    }
+    .team_opening_sec .pagination_section {
+        margin-top: 4.34375vw;
+    }
+    .team_opening_sec .team_opening_col {
+        padding: 2.5625vw 2.1875vw;
+    }
+    .team_opening_sec .button_border {
+        font-size: 20px;
+    }
+    .team_opening_sec .banner_home_cnt {
+        font-size: 20px;
+    }
+    .team_opening_sec .heading_inner .fs-28 {
+        font-size: 28px;
+    }
+  
+    .life_agedefy_sec .common_heading .peragraph_cnt {
+        font-size: 18px;
+    }
+    .work_us_sec .banner_home_cnt.color_lg {
+        font-size: 18px;
+    }
+    .work_us_sec .heading_inner .fs-28 {
+        font-size: 20px;
+    }
+    .work_us_sec .work_us_col {
+        width: 30%;
+        padding: 10px 20px;
+    }
+    .team_opening_sec .team_opening_col .banner_home_cnt.color_lg.fs-18 {
+        text-align: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .team_opening_sec .team_opening_col .banner_home_cnt.color_lg.fs-18 p:first-child {
+        padding-bottom: 10px;
+    }
+    .team_opening_sec .button_border {
+        margin-top: 30px;
+    }
+    .team_opening_sec .team_opening_boxes {
+        gap: 25px;
+    }
+
+    .work_us_sec .work_us_col {
+        width: 31%;
+        padding: 10px 0;
+    }
+
+    .team_opening_sec .heading_inner .fs-28 {
+        font-size: 20px;
+    }
+
+    .team_opening_sec .banner_home_cnt {
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 991px) {
+
+    .work_us_sec .work_us_col {
+        width: 48%;
+        padding: 10px 0px;
+    }
+
+    .work_us_sec .work_us_inner {
+       padding-top: 5.6875vw;
+    }
+
+    .work_us_sec .work_us_icon {
+        width: 9.94792vw;
+        height: 9.94792vw;
+        margin-bottom: 3.34375vw;
+    }
+
+    .work_us_sec .banner_home_cnt.color_lg {
+       margin-top: 3.04167vw;
+    }
+
+.work_us_sec .work_us_inner {
+    gap: 2.90625vw;
+}
+.team_opening_sec .team_opening_inner {
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.team_opening_sec .team_opening_heading_left {
+    width: 100%;
+}
+.team_opening_sec .team_opening_heading_right {
+    width: 100%;
+}
+.team_opening_sec .brand_search_inner {
+    width: 48%;
+}
+.team_opening_sec .team_opening_boxes {
+    grid-template-columns: 1fr;
+}
+.work_us_sec .work_us_img_inner {
+    width: 14vw;
+}
+
+
+
+}
+@media screen and (max-width: 767px) {
+.life_agedefy_sec .life_agedefy_inner {
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+.life_agedefy_sec {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+.life_agedefy_sec .life_agedefy_right {
+    padding-left: 0px;
+}
+    .work_us_sec .work_us_img_inner {
+        width: 15vw;
+        padding-top: 0;
+    }
+.work_us_sec .work_us_inner {
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+.work_us_sec .work_us_col {
+    width: 100%;
+    padding: 30px 20px;
+}
+.work_us_sec .work_us_icon {
+    width: 15vw;
+    height: 15vw;
+    padding: 15px;
+}
+.work_us_sec .heading_inner .fs-28 {
+    padding: 15px 0px;
+}
+.team_opening_sec .team_opening_heading_right {
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+.team_opening_sec .brand_search_inner {
+    width: 100%;
+}
+.team_opening_sec .send_us_custom_select {
+    width: 100%;
+}
+.team_opening_sec .send_us_custom_select select {
+    padding: 15px 24px;
+}
+.team_opening_sec .send_us_custom_select::after {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+.team_opening_sec .team_opening_boxes {
+    padding-top: 20px;
+}
+.team_opening_sec .pagination_section {
+    margin-top: 35px;
+}
+.team_opening_sec {
+    padding-top: 6vw;
+}
+.team_opening_sec {
+    padding-bottom: 12vw;
+}
+
+    .team_opening_sec .button_border {
+        font-size: 16px;
+    }
+
+    .team_opening_col .button_border .arrow svg{
+        width: 20px !important;
+    }
+
+.life_agedefy_sec .life_agedefy_img {
+    clip-path: polygon(30px 0%, 100% 0%, 100% 100%, 30px 100%, 0% calc(100% - 30px), 0% 30px);
+    position: relative;
+}
+
+.life_agedefy_sec .life_agedefy_img .video_button_popup {
+    left: 40%;
+    top: 31%;
+    z-index: 1;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+}
+
+.work_us_sec .banner_home_cnt.color_lg{
+    padding: 0;
+}
+
+    .work_us_sec .work_us_col {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+}

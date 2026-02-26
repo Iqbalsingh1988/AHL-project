@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../fonts/AcuminPro-BoldItalic.eot');
+    src: url('../fonts/AcuminPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AcuminPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/AcuminPro-BoldItalic.woff') format('woff'),
+        url('../fonts/AcuminPro-BoldItalic.ttf') format('truetype'),
+        url('../fonts/AcuminPro-BoldItalic.svg#AcuminPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../fonts/AcuminPro-Bold.eot');
+    src: url('../fonts/AcuminPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AcuminPro-Bold.woff2') format('woff2'),
+        url('../fonts/AcuminPro-Bold.woff') format('woff'),
+        url('../fonts/AcuminPro-Bold.ttf') format('truetype'),
+        url('../fonts/AcuminPro-Bold.svg#AcuminPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../fonts/AcuminPro-Italic.eot');
+    src: url('../fonts/AcuminPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AcuminPro-Italic.woff2') format('woff2'),
+        url('../fonts/AcuminPro-Italic.woff') format('woff'),
+        url('../fonts/AcuminPro-Italic.ttf') format('truetype'),
+        url('../fonts/AcuminPro-Italic.svg#AcuminPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../fonts/AcuminPro-Regular.eot');
+    src: url('../fonts/AcuminPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AcuminPro-Regular.woff2') format('woff2'),
+        url('../fonts/AcuminPro-Regular.woff') format('woff'),
+        url('../fonts/AcuminPro-Regular.ttf') format('truetype'),
+        url('../fonts/AcuminPro-Regular.svg#AcuminPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Nereida Expanded';
+    src: url('../fonts/FONTSPRINGDEMO-NereidaExpandedMediumRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-NereidaExpandedMediumRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-NereidaExpandedMediumRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-NereidaExpandedMediumRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-NereidaExpandedMediumRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-NereidaExpandedMediumRegular.svg#FONTSPRINGDEMO-NereidaExpandedMediumRegular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
